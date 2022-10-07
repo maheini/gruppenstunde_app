@@ -8,7 +8,7 @@
 PRODUCT_NAME = gruppenstunde_app
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.gruppenstundeApp
+PRODUCT_BUNDLE_IDENTIFIER = com.neofix.gruppenstundeApp
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2022 com.example. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2022 com.neofix. All rights reserved.

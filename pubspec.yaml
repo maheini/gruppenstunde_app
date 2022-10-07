@@ -1,4 +1,4 @@
-name: gruppenstunde_app
+name: Gruppenstunde
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -27,6 +27,9 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  webview_flutter: ^3.0.4
+  webview_flutter_plus: ^0.3.0+2
+  url_launcher: ^6.1.6
   flutter:
     sdk: flutter
 
@@ -35,7 +38,15 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+# Setup icons for the flutter_launcher_icons package
+flutter_icons:
+  android: true
+  image_path: "assets/default_icon.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/adaptive_icon.png"
+
 dev_dependencies:
+  flutter_launcher_icons: "^0.10.0"
   flutter_test:
     sdk: flutter
 

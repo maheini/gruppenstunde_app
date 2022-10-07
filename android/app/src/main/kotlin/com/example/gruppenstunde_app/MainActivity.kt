@@ -1,4 +1,4 @@
-package com.example.gruppenstunde_app
+package com.neofix.gruppenstunde_app
 
 import io.flutter.embedding.android.FlutterActivity
 
